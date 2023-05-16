@@ -17,16 +17,13 @@
 # specific language governing permissions and limitations
 # under the License.
 
-# for load pcre
-import hercules
-from ._ffi import LIB_SHA1
+"""Python version check
+"""
+import sys
 
-
-__version__ = "0.1.0"
-
-__all__ = [
-    "__version__",
-    "foo"
-]
-from . import foo
-
+# ----------------------------
+# Python3 version.
+# ----------------------------
+if not (sys.version_info[0] >= 3 and sys.version_info[1] >= 6):
+    PY3STATEMENT = "The minimal Python requirement is Python 3.6"
+    raise Exception(PY3STATEMENT)

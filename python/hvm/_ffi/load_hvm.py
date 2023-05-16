@@ -17,16 +17,30 @@
 # specific language governing permissions and limitations
 # under the License.
 
-# for load pcre
-import hercules
-from ._ffi import LIB_SHA1
+import sys
+import os
+import ctypes
+from . import libinfo
+import hashlib
 
 
-__version__ = "0.1.0"
+def _load_hvm():
+    """Load library by searching possible path."""
+    lib_path = libinfo.find_lib_path('hvm')
+    print(lib_path)
+    lib_pp = os.path.abspath(os.path.dirname(lib_path[0]))
+    cwd = os.getcwd()
+    try:
+        os.chdir(lib_pp)
+        print(lib_pp)
+        print(lib_path[0])
+        lib = ctypes.CDLL("/home/ubuntu/github/gottingen/hvm/lib/libhvm.so", ctypes.RTLD_GLOBAL)
+        with open(lib_path[0], 'rb') as lib_f:
+            lib_sha1 = hashlib.sha1(lib_f.read()).hexdigest()
+        lib.HerculesAPIGetLastError.restype = ctypes.c_char_p
+    finally:
+        os.chdir(cwd)
+    return lib, os.path.basename(lib_path[0]), lib_sha1
 
-__all__ = [
-    "__version__",
-    "foo"
-]
-from . import foo
 
+_LIB, _LIB_NAME, _LIB_SHA1 = _load_hvm()

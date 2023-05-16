@@ -1,4 +1,5 @@
-# Copyright 2023 Hercules author.
+#! /usr/bin/env bash
+# Copyright 2023 HVM author.
 #
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
@@ -17,16 +18,28 @@
 # specific language governing permissions and limitations
 # under the License.
 
-# for load pcre
-import hercules
-from ._ffi import LIB_SHA1
+set -xue
+set -o pipefail
 
+THIS_PATH=$(cd $(dirname "$0"); pwd)
+ROOT_PATH=${THIS_PATH}/../
+BUILD_PATH=${ROOT_PATH}/lib
+THIRD_PATH=${ROOT_PATH}/3rdparty
 
-__version__ = "0.1.0"
+BUILD_BENCHMARK=${BUILD_BENCHMARK:-OFF}
+export BUILD_BENCHMARK=$BUILD_BENCHMARK
 
-__all__ = [
-    "__version__",
-    "foo"
-]
-from . import foo
+BUILD_TESTING=${BUILD_TESTING:-OFF}
+export BUILD_TESTING=$BUILD_TESTING
 
+# mkdir lib
+if [ ! -d "${BUILD_PATH}" ]; then
+  mkdir -p "${BUILD_PATH}"
+else
+  rm -rf "${BUILD_PATH:?}/*"
+fi
+
+# build hercules
+cd "${BUILD_PATH}"
+cmake ../
+make -j4

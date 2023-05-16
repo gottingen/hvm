@@ -17,16 +17,20 @@
 # specific language governing permissions and limitations
 # under the License.
 
-# for load pcre
+import unittest
+
+import hvm
 import hercules
-from ._ffi import LIB_SHA1
+
+class TestBuiltinImpl(unittest.TestCase):
+
+    def test_split(self):
+        myfoo = hercules.script(hvm.foo.MyFooWrapper)()
+        assert len(myfoo("hello world")) == 2
 
 
-__version__ = "0.1.0"
+if __name__ == "__main__":
+    import logging
 
-__all__ = [
-    "__version__",
-    "foo"
-]
-from . import foo
-
+    logging.basicConfig(level=logging.INFO)
+    unittest.main()

@@ -103,7 +103,7 @@ setup(
     author='hvm Team',
     author_email='bohuli2048@gmial.com',
     url='https://github.com/gottingen/hvm',
-    packages=['hercules'],
+    packages=['hvm'],
     package_data={
         'hvm': package_files(['hvm']),
     },
