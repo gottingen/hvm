@@ -22,11 +22,13 @@ import hercules
 from ._ffi import LIB_SHA1
 
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "__version__",
-    "foo"
+    "foo",
+    "jieba"
 ]
 from . import foo
+from . import jieba
 

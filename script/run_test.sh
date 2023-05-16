@@ -41,8 +41,16 @@ pip3 install -r requirements.txt
 # find all test script
 ###############################################################################
 PYTHONPATH=${PYTHONPATH:-}
-TEST_SCRIPT_PATH=${ROOT_PATH}/test/foo
-cd "${TEST_SCRIPT_PATH}"
+FOO_SCRIPT_PATH=${ROOT_PATH}/test/foo
+cd "${FOO_SCRIPT_PATH}"
+# shellcheck disable=SC2045
+for script_file in $(ls test_*.py); do
+  echo "test script: ${script_file}"
+  PYTHONPATH="${ROOT_PATH}/python:${PYTHONPATH}" python3 "${script_file}"
+done
+
+JIEBA_SCRIPT_PATH=${ROOT_PATH}/test/jieba
+cd "${JIEBA_SCRIPT_PATH}"
 # shellcheck disable=SC2045
 for script_file in $(ls test_*.py); do
   echo "test script: ${script_file}"
