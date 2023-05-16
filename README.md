@@ -7,3 +7,12 @@ hvm is a plugin set for ai and search project that base the framework [hercules]
 ```shell
 pip install hvm
 ```
+
+# plan to do
+
+- [x] ann search
+- [x] nlp
+  - [x] jieba
+  - [x]  normalize
+
+# module and interface
