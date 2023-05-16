@@ -17,16 +17,15 @@
 # specific language governing permissions and limitations
 # under the License.
 
-# for load pcre
+from hercules.contrib.cc import create_shared
 import hercules
-from ._ffi import LIB_SHA1
+from typing import List
 
 
-__version__ = "0.1.0"
+class MyFooWrapper:
 
-__all__ = [
-    "__version__",
-    "foo"
-]
-from . import foo
+    def __init__(self) -> None:
+        self.foo: hercules.NativeObject = hercules.make_native_object("MyFoo", "88")
 
+    def __call__(self, ss: str) -> List[str]:
+        return self.foo.split(ss)

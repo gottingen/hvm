@@ -1,4 +1,9 @@
 # hvm
-hvm
 
-depend [hercules](https://github.com/gottingen/hercules)
+hvm is a plugin set for ai and search project that base the framework [hercules](https://github.com/gottingen/hercules)
+
+# install
+
+```shell
+pip install hvm
+```

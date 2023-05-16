@@ -17,16 +17,5 @@
 # specific language governing permissions and limitations
 # under the License.
 
-# for load pcre
-import hercules
-from ._ffi import LIB_SHA1
-
-
-__version__ = "0.1.0"
-
-__all__ = [
-    "__version__",
-    "foo"
-]
-from . import foo
+from .myfoo import MyFooWrapper
 
