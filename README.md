@@ -10,9 +10,9 @@ pip install hvm
 
 # plan to do
 
-- [x] ann search
+- [] ann search
 - [x] nlp
   - [x] jieba
-  - [x]  normalize
+  - []  normalize
 
 # module and interface
