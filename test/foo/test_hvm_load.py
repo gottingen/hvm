@@ -25,7 +25,7 @@ import hercules
 class TestBuiltinImpl(unittest.TestCase):
 
     def test_split(self):
-        myfoo = hercules.script(hvm.foo.MyFooWrapper)()
+        myfoo = hvm.jit(hvm.foo.MyFooWrapper)()
         assert len(myfoo("hello world")) == 2
 
 

@@ -12,7 +12,7 @@ CPMAddPackage(
     GIT_TAG v0.8.9
     OPTIONS "TURBO_BUILD_TESTING OFF"
         "TURBO_BUILD_EXAMPLE OFF"
-        "TURBO_USE_CXX_ABI OFF"
+        "TURBO_USE_CXX_ABI ON"
         "TURBO_BUILD_EXAMPLE OFF")
 
 CPMAddPackage(
@@ -21,3 +21,11 @@ CPMAddPackage(
         GIT_TAG v0.1.4
         OPTIONS "TURBO_BUILD_TESTING OFF"
         "TURBO_BUILD_EXAMPLE OFF")
+#[[
+CPMAddPackage(
+        NAME tann
+        GITHUB_REPOSITORY "gottingen/titan-ann"
+        GIT_TAG v0.1.0
+        OPTIONS "TURBO_BUILD_TESTING OFF"
+        "TURBO_BUILD_EXAMPLE OFF")
+]]

@@ -28,7 +28,7 @@ ROOT_PATH=${THIS_PATH}/../
 # build all shared target
 ###############################################################################
 cd "${ROOT_PATH}" || exit 1
-BUILD_TESTING=OFF BUILD_BENCHMARK=OFF CPPFLAGS="-D_GLIBCXX_USE_CXX11_ABI=0" bash script/build_lib.sh
+BUILD_TESTING=OFF BUILD_BENCHMARK=OFF CPPFLAGS="-D_GLIBCXX_USE_CXX11_ABI=1" bash script/build_lib.sh
 
 ###############################################################################
 # install requirements
@@ -51,6 +51,14 @@ done
 
 JIEBA_SCRIPT_PATH=${ROOT_PATH}/test/jieba
 cd "${JIEBA_SCRIPT_PATH}"
+# shellcheck disable=SC2045
+for script_file in $(ls test_*.py); do
+  echo "test script: ${script_file}"
+  PYTHONPATH="${ROOT_PATH}/python:${PYTHONPATH}" python3 "${script_file}"
+done
+
+TF2_SCRIPT_PATH=${ROOT_PATH}/test/tensorflow2
+cd "${TF2_SCRIPT_PATH}"
 # shellcheck disable=SC2045
 for script_file in $(ls test_*.py); do
   echo "test script: ${script_file}"

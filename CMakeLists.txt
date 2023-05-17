@@ -29,13 +29,13 @@ if(DEFINED ENV{CPPFLAGS})
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} $ENV{CPPFLAGS}")
 endif ()
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+set(CMAKE_CXX_FLAGS "-g -O2 -std=c++17 -fPIC -w -fpermissive -pthread ${CMAKE_CXX_FLAGS}")
 
 include(deps)
 
 set(HVM_SRC
         src/foo.cc
-        src/jieba.cc)
+        src/jieba/jieba.cc)
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
 add_library(hvm SHARED ${HVM_SRC})

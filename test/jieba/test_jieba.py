@@ -19,7 +19,6 @@
 import os
 import unittest
 import hvm
-import hercules
 from typing import Callable, Any
 
 SCRIPT_PATH = os.path.split(os.path.realpath(__file__))[0]
@@ -45,7 +44,7 @@ class TestBuiltinTextOps(unittest.TestCase):
             def __call__(self, a: str, cut_all: bool, HMM: bool) -> Any:
                 return self.op(a, cut_all, HMM)
 
-        op = hercules.script(MyCutter)()
+        op = hvm.jit(MyCutter)()
         print(op(test_content, False, True))
         print(op(test_content, True, False))
         print(op(test_content, False, False))

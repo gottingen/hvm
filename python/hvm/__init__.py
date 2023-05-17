@@ -27,8 +27,10 @@ __version__ = "0.1.1"
 __all__ = [
     "__version__",
     "foo",
-    "jieba"
+    "jieba",
+    "jit"
 ]
 from . import foo
 from . import jieba
+from .jit import jit
 
