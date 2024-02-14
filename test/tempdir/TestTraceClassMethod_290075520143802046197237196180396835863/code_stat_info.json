@@ -1,0 +1,13 @@
+{
+    "jit_op_count": 1,
+    "native_op_count": 1,
+    "python_class_count": 0,
+    "python_function_count": 2,
+    "python_co_lines": 9,
+    "python_co_chars": 204,
+    "codegen_co_lines": 279,
+    "codegen_co_chars": 15278,
+    "version": "1.8.1",
+    "commit_id": null,
+    "create_time": 1707910825
+}

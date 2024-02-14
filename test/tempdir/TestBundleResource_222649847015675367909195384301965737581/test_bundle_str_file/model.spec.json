@@ -1,0 +1,641 @@
+{
+  "t": "Dict",
+  "v": [
+    {
+      "t": "String",
+      "v": "share_compute_pool"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "share_scheduling_pool"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "enable_compute_pool"
+    },
+    {
+      "t": "int",
+      "v": 1
+    },
+    {
+      "t": "String",
+      "v": "name"
+    },
+    {
+      "t": "String",
+      "v": "b23eacea-8a26-42f0-b9ae-970143d3a46f"
+    },
+    {
+      "t": "String",
+      "v": "scheduling_pool_thread_nums"
+    },
+    {
+      "t": "int",
+      "v": 2
+    },
+    {
+      "t": "String",
+      "v": "ops"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "share"
+                },
+                {
+                  "t": "int",
+                  "v": 0
+                },
+                {
+                  "t": "String",
+                  "v": "class_info"
+                },
+                {
+                  "t": "Dict",
+                  "v": [
+                    {
+                      "t": "String",
+                      "v": "init_func"
+                    },
+                    {
+                      "t": "Dict",
+                      "v": [
+                        {
+                          "t": "String",
+                          "v": "name"
+                        },
+                        {
+                          "t": "String",
+                          "v": "LookupTable__F___init__"
+                        },
+                        {
+                          "t": "String",
+                          "v": "args"
+                        },
+                        {
+                          "t": "List",
+                          "v": [
+                            {
+                              "t": "Dict",
+                              "v": [
+                                {
+                                  "t": "String",
+                                  "v": "name"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "loc"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "type_code"
+                                },
+                                {
+                                  "t": "int",
+                                  "v": -12
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "String",
+                          "v": "bound_self"
+                        },
+                        {
+                          "t": "int",
+                          "v": 0
+                        },
+                        {
+                          "t": "String",
+                          "v": "defaults"
+                        },
+                        {
+                          "t": "List",
+                          "v": []
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "init_args"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "Unicode",
+                          "v": "JitObject_LookupTable_3112393485297104084_2/word2id.txt"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "name"
+                    },
+                    {
+                      "t": "String",
+                      "v": "LookupTable"
+                    },
+                    {
+                      "t": "String",
+                      "v": "len_slots"
+                    },
+                    {
+                      "t": "int",
+                      "v": 1
+                    },
+                    {
+                      "t": "String",
+                      "v": "member_funcs"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "LookupTable__F___init__"
+                            },
+                            {
+                              "t": "String",
+                              "v": "args"
+                            },
+                            {
+                              "t": "List",
+                              "v": [
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "loc"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": -12
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "t": "String",
+                              "v": "bound_self"
+                            },
+                            {
+                              "t": "int",
+                              "v": 0
+                            },
+                            {
+                              "t": "String",
+                              "v": "defaults"
+                            },
+                            {
+                              "t": "List",
+                              "v": []
+                            }
+                          ]
+                        },
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "LookupTable__F___call__"
+                            },
+                            {
+                              "t": "String",
+                              "v": "args"
+                            },
+                            {
+                              "t": "List",
+                              "v": [
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "self"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": 20
+                                    }
+                                  ]
+                                },
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "x"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": -12
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "t": "String",
+                              "v": "bound_self"
+                            },
+                            {
+                              "t": "int",
+                              "v": 1
+                            },
+                            {
+                              "t": "String",
+                              "v": "defaults"
+                            },
+                            {
+                              "t": "List",
+                              "v": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path"
+                },
+                {
+                  "t": "String",
+                  "v": ""
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 41
+                },
+                {
+                  "t": "String",
+                  "v": "need_bundle"
+                },
+                {
+                  "t": "List",
+                  "v": [
+                    {
+                      "t": "String",
+                      "v": "$.loc"
+                    }
+                  ]
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "String",
+                  "v": "/home/jeff/github/gottingen/hvm/test/test_bundle_resource.py"
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path_cxx11"
+                },
+                {
+                  "t": "String",
+                  "v": "JitObject_LookupTable_3112393485297104084_2/libtest_bundle_resource_41_LookupTable_plugin_8ee0ad17b7bd9888.so"
+                },
+                {
+                  "t": "String",
+                  "v": "captures"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "LookupTable_3112393485297104084_2"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitObject"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "main_func_name"
+                },
+                {
+                  "t": "String",
+                  "v": "LookupTable__F___call__"
+                },
+                {
+                  "t": "String",
+                  "v": "jit_object_name"
+                },
+                {
+                  "t": "String",
+                  "v": "LookupTable_3112393485297104084_2"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "LookupTable_JitOp_18236752157852174164_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "String",
+      "v": "compute_pool_thread_nums"
+    },
+    {
+      "t": "int",
+      "v": 8
+    },
+    {
+      "t": "String",
+      "v": "enable_graph_parallel"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "outputs"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "String",
+          "v": "16523343892801844578_0"
+        }
+      ]
+    },
+    {
+      "t": "String",
+      "v": "enable_scheduling_pool"
+    },
+    {
+      "t": "int",
+      "v": 1
+    },
+    {
+      "t": "String",
+      "v": "g_attr"
+    },
+    {
+      "t": "Dict",
+      "v": []
+    },
+    {
+      "t": "String",
+      "v": "graph"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "x"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "x"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "x"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "LookupTable_JitOp_18236752157852174164_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "16523343892801844578_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "exported"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "16523343892801844578_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "LookupTable_JitOp_18236752157852174164_0_node_9784782450576697015"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

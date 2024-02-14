@@ -1,0 +1,747 @@
+{
+  "t": "Dict",
+  "v": [
+    {
+      "t": "String",
+      "v": "share_compute_pool"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "share_scheduling_pool"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "enable_compute_pool"
+    },
+    {
+      "t": "int",
+      "v": 1
+    },
+    {
+      "t": "String",
+      "v": "name"
+    },
+    {
+      "t": "String",
+      "v": "baa31f96-ff44-4aec-a56e-8d03f6c6dcb7"
+    },
+    {
+      "t": "String",
+      "v": "scheduling_pool_thread_nums"
+    },
+    {
+      "t": "int",
+      "v": 2
+    },
+    {
+      "t": "String",
+      "v": "ops"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "func_info"
+                },
+                {
+                  "t": "Dict",
+                  "v": [
+                    {
+                      "t": "String",
+                      "v": "name"
+                    },
+                    {
+                      "t": "String",
+                      "v": "make_ndarray"
+                    },
+                    {
+                      "t": "String",
+                      "v": "args"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "dtype"
+                            },
+                            {
+                              "t": "String",
+                              "v": "type_code"
+                            },
+                            {
+                              "t": "int",
+                              "v": -12
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "bound_self"
+                    },
+                    {
+                      "t": "int",
+                      "v": 0
+                    },
+                    {
+                      "t": "String",
+                      "v": "defaults"
+                    },
+                    {
+                      "t": "List",
+                      "v": []
+                    }
+                  ]
+                },
+                {
+                  "t": "String",
+                  "v": "share"
+                },
+                {
+                  "t": "int",
+                  "v": 0
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path"
+                },
+                {
+                  "t": "String",
+                  "v": ""
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 169
+                },
+                {
+                  "t": "String",
+                  "v": "need_bundle"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "String",
+                  "v": "/home/jeff/github/gottingen/hvm/test/trace/test_common_trace.py"
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path_cxx11"
+                },
+                {
+                  "t": "String",
+                  "v": "JitObject_make_ndarray_531562099654713901_0/libtest_common_trace_169_make_ndarray_plugin_26e2897d9bc74012.so"
+                },
+                {
+                  "t": "String",
+                  "v": "captures"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "make_ndarray_531562099654713901_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitObject"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "main_func_name"
+                },
+                {
+                  "t": "String",
+                  "v": "make_ndarray"
+                },
+                {
+                  "t": "String",
+                  "v": "jit_object_name"
+                },
+                {
+                  "t": "String",
+                  "v": "make_ndarray_531562099654713901_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "make_ndarray_JitOp_11706656052539304562_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "opcode"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "__getitem__"
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_func"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "process"
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_stmt"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "return nd[index][index][index]"
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 175
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "test_common_trace.py"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_14862365775070637127_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "String",
+      "v": "compute_pool_thread_nums"
+    },
+    {
+      "t": "int",
+      "v": 8
+    },
+    {
+      "t": "String",
+      "v": "enable_graph_parallel"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "outputs"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "String",
+          "v": "506688967097500453_0"
+        }
+      ]
+    },
+    {
+      "t": "String",
+      "v": "enable_scheduling_pool"
+    },
+    {
+      "t": "int",
+      "v": 1
+    },
+    {
+      "t": "String",
+      "v": "g_attr"
+    },
+    {
+      "t": "Dict",
+      "v": []
+    },
+    {
+      "t": "String",
+      "v": "graph"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "dtype"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "dtype"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "dtype"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "make_ndarray_JitOp_11706656052539304562_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "2136135431823036920_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "make_ndarray_JitOp_11706656052539304562_0_node_15951084086740083899"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "index"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "index"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "2136135431823036920_0"
+                },
+                {
+                  "t": "String",
+                  "v": "index"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_14862365775070637127_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "9818753788224092429_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_14862365775070637127_0_node_16858642493129771161"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "9818753788224092429_0"
+                },
+                {
+                  "t": "String",
+                  "v": "index"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_14862365775070637127_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "7621300372970359211_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_14862365775070637127_0_node_13667260206951502878"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "7621300372970359211_0"
+                },
+                {
+                  "t": "String",
+                  "v": "index"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_14862365775070637127_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "506688967097500453_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "exported"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "506688967097500453_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_14862365775070637127_0_node_17746157657945400304"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

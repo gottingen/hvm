@@ -1,0 +1,1973 @@
+{
+  "t": "Dict",
+  "v": [
+    {
+      "t": "String",
+      "v": "share_compute_pool"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "share_scheduling_pool"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "enable_compute_pool"
+    },
+    {
+      "t": "int",
+      "v": 1
+    },
+    {
+      "t": "String",
+      "v": "name"
+    },
+    {
+      "t": "String",
+      "v": "e5b6665b-2921-4f0a-9885-1443693c7afd"
+    },
+    {
+      "t": "String",
+      "v": "scheduling_pool_thread_nums"
+    },
+    {
+      "t": "int",
+      "v": 2
+    },
+    {
+      "t": "String",
+      "v": "ops"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "func_info"
+                },
+                {
+                  "t": "Dict",
+                  "v": [
+                    {
+                      "t": "String",
+                      "v": "name"
+                    },
+                    {
+                      "t": "String",
+                      "v": "sub"
+                    },
+                    {
+                      "t": "String",
+                      "v": "args"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "a"
+                            },
+                            {
+                              "t": "String",
+                              "v": "type_code"
+                            },
+                            {
+                              "t": "int",
+                              "v": -3
+                            }
+                          ]
+                        },
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "b"
+                            },
+                            {
+                              "t": "String",
+                              "v": "type_code"
+                            },
+                            {
+                              "t": "int",
+                              "v": -3
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "bound_self"
+                    },
+                    {
+                      "t": "int",
+                      "v": 0
+                    },
+                    {
+                      "t": "String",
+                      "v": "defaults"
+                    },
+                    {
+                      "t": "List",
+                      "v": []
+                    }
+                  ]
+                },
+                {
+                  "t": "String",
+                  "v": "share"
+                },
+                {
+                  "t": "int",
+                  "v": 0
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path"
+                },
+                {
+                  "t": "String",
+                  "v": ""
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 63
+                },
+                {
+                  "t": "String",
+                  "v": "need_bundle"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "String",
+                  "v": "/home/jeff/github/gottingen/hvm/test/trace/test_common_trace.py"
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path_cxx11"
+                },
+                {
+                  "t": "String",
+                  "v": "JitObject_sub_11907608539589328070_0/libtest_common_trace_63_sub_plugin_26e2897d9bc74012.so"
+                },
+                {
+                  "t": "String",
+                  "v": "captures"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "sub_11907608539589328070_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitObject"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "main_func_name"
+                },
+                {
+                  "t": "String",
+                  "v": "sub"
+                },
+                {
+                  "t": "String",
+                  "v": "jit_object_name"
+                },
+                {
+                  "t": "String",
+                  "v": "sub_11907608539589328070_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "sub_JitOp_13709242021975828534_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "func_info"
+                },
+                {
+                  "t": "Dict",
+                  "v": [
+                    {
+                      "t": "String",
+                      "v": "name"
+                    },
+                    {
+                      "t": "String",
+                      "v": "add"
+                    },
+                    {
+                      "t": "String",
+                      "v": "args"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "a"
+                            },
+                            {
+                              "t": "String",
+                              "v": "type_code"
+                            },
+                            {
+                              "t": "int",
+                              "v": -3
+                            }
+                          ]
+                        },
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "b"
+                            },
+                            {
+                              "t": "String",
+                              "v": "type_code"
+                            },
+                            {
+                              "t": "int",
+                              "v": -3
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "bound_self"
+                    },
+                    {
+                      "t": "int",
+                      "v": 0
+                    },
+                    {
+                      "t": "String",
+                      "v": "defaults"
+                    },
+                    {
+                      "t": "List",
+                      "v": []
+                    }
+                  ]
+                },
+                {
+                  "t": "String",
+                  "v": "share"
+                },
+                {
+                  "t": "int",
+                  "v": 0
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path"
+                },
+                {
+                  "t": "String",
+                  "v": ""
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 67
+                },
+                {
+                  "t": "String",
+                  "v": "need_bundle"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "String",
+                  "v": "/home/jeff/github/gottingen/hvm/test/trace/test_common_trace.py"
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path_cxx11"
+                },
+                {
+                  "t": "String",
+                  "v": "JitObject_add_11907608539589328070_1/libtest_common_trace_67_add_plugin_26e2897d9bc74012.so"
+                },
+                {
+                  "t": "String",
+                  "v": "captures"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "add_11907608539589328070_1"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitObject"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "main_func_name"
+                },
+                {
+                  "t": "String",
+                  "v": "add"
+                },
+                {
+                  "t": "String",
+                  "v": "jit_object_name"
+                },
+                {
+                  "t": "String",
+                  "v": "add_11907608539589328070_1"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "add_JitOp_8538636138944486530_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "data"
+                },
+                {
+                  "t": "List",
+                  "v": [
+                    {
+                      "t": "int",
+                      "v": 1
+                    },
+                    {
+                      "t": "int",
+                      "v": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_11521138168930635037_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "data"
+                },
+                {
+                  "t": "int",
+                  "v": 1
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_15934684156331172057_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "data"
+                },
+                {
+                  "t": "int",
+                  "v": 10
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_4641086748743810201_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "opcode"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "SetConstructor"
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_func"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "process"
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_stmt"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "k = sum([m, n, [1, 2], [1, n, {m, n, 10}, {m: 10, 100: n}]])"
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 93
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "test_common_trace.py"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_15277159770636626421_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "data"
+                },
+                {
+                  "t": "int",
+                  "v": 10
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_4641086748743810201_1"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "data"
+                },
+                {
+                  "t": "int",
+                  "v": 100
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_12256427279621664976_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "opcode"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "DictConstructor"
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_func"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "process"
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_stmt"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "k = sum([m, n, [1, 2], [1, n, {m, n, 10}, {m: 10, 100: n}]])"
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 93
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "test_common_trace.py"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_9023877402239969602_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "opcode"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "ListConstructor"
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_func"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "process"
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_stmt"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "k = sum([m, n, [1, 2], [1, n, {m, n, 10}, {m: 10, 100: n}]])"
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 93
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "Unicode",
+                  "v": "test_common_trace.py"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_14384436830011568536_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "func_info"
+                },
+                {
+                  "t": "Dict",
+                  "v": [
+                    {
+                      "t": "String",
+                      "v": "name"
+                    },
+                    {
+                      "t": "String",
+                      "v": "sum"
+                    },
+                    {
+                      "t": "String",
+                      "v": "args"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "l"
+                            },
+                            {
+                              "t": "String",
+                              "v": "type_code"
+                            },
+                            {
+                              "t": "int",
+                              "v": 7
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "bound_self"
+                    },
+                    {
+                      "t": "int",
+                      "v": 0
+                    },
+                    {
+                      "t": "String",
+                      "v": "defaults"
+                    },
+                    {
+                      "t": "List",
+                      "v": []
+                    }
+                  ]
+                },
+                {
+                  "t": "String",
+                  "v": "share"
+                },
+                {
+                  "t": "int",
+                  "v": 0
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path"
+                },
+                {
+                  "t": "String",
+                  "v": ""
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 71
+                },
+                {
+                  "t": "String",
+                  "v": "need_bundle"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "String",
+                  "v": "/home/jeff/github/gottingen/hvm/test/trace/test_common_trace.py"
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path_cxx11"
+                },
+                {
+                  "t": "String",
+                  "v": "JitObject_sum_531562099654713901_0/libtest_common_trace_71_sum_plugin_26e2897d9bc74012.so"
+                },
+                {
+                  "t": "String",
+                  "v": "captures"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "sum_531562099654713901_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitObject"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "main_func_name"
+                },
+                {
+                  "t": "String",
+                  "v": "sum"
+                },
+                {
+                  "t": "String",
+                  "v": "jit_object_name"
+                },
+                {
+                  "t": "String",
+                  "v": "sum_531562099654713901_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "sum_JitOp_10784937818019450348_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "String",
+      "v": "compute_pool_thread_nums"
+    },
+    {
+      "t": "int",
+      "v": 8
+    },
+    {
+      "t": "String",
+      "v": "enable_graph_parallel"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "outputs"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "String",
+          "v": "16633023392245371414_0"
+        }
+      ]
+    },
+    {
+      "t": "String",
+      "v": "enable_scheduling_pool"
+    },
+    {
+      "t": "int",
+      "v": 1
+    },
+    {
+      "t": "String",
+      "v": "g_attr"
+    },
+    {
+      "t": "Dict",
+      "v": []
+    },
+    {
+      "t": "String",
+      "v": "graph"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "a"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "a"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "b"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "b"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "a"
+                },
+                {
+                  "t": "String",
+                  "v": "b"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "sub_JitOp_13709242021975828534_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "6711256724739747252_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "sub_JitOp_13709242021975828534_0_node_5367640271729528528"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "6711256724739747252_0"
+                },
+                {
+                  "t": "String",
+                  "v": "6711256724739747252_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "add_JitOp_8538636138944486530_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "4893732182322493214_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "add_JitOp_8538636138944486530_0_node_14104592399958530502"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_11521138168930635037_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "14061773796046496620_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_11521138168930635037_0"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_15934684156331172057_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "9373911572699573830_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_15934684156331172057_0"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_4641086748743810201_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "3508918446106617950_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_4641086748743810201_0"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "6711256724739747252_0"
+                },
+                {
+                  "t": "String",
+                  "v": "3508918446106617950_0"
+                },
+                {
+                  "t": "String",
+                  "v": "4893732182322493214_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_15277159770636626421_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "15156838049125935736_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_15277159770636626421_0_node_16848813265760918428"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_4641086748743810201_1"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "13846681998861602465_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_4641086748743810201_1"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_12256427279621664976_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "8003511615320619592_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "ConstantOp_12256427279621664976_0"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "6711256724739747252_0"
+                },
+                {
+                  "t": "String",
+                  "v": "13846681998861602465_0"
+                },
+                {
+                  "t": "String",
+                  "v": "8003511615320619592_0"
+                },
+                {
+                  "t": "String",
+                  "v": "4893732182322493214_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_9023877402239969602_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "6671254055807932135_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_9023877402239969602_0_node_16898935052812868573"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "9373911572699573830_0"
+                },
+                {
+                  "t": "String",
+                  "v": "4893732182322493214_0"
+                },
+                {
+                  "t": "String",
+                  "v": "15156838049125935736_0"
+                },
+                {
+                  "t": "String",
+                  "v": "6671254055807932135_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_14384436830011568536_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "3855471471974553501_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_14384436830011568536_0_node_282883691907822453"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "6711256724739747252_0"
+                },
+                {
+                  "t": "String",
+                  "v": "4893732182322493214_0"
+                },
+                {
+                  "t": "String",
+                  "v": "14061773796046496620_0"
+                },
+                {
+                  "t": "String",
+                  "v": "3855471471974553501_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_14384436830011568536_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "15287940580127489207_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "InterpreterOp_14384436830011568536_0_node_371242003685318874"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "15287940580127489207_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "sum_JitOp_10784937818019450348_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "16633023392245371414_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "exported"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "16633023392245371414_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "sum_JitOp_10784937818019450348_0_node_9528617346690328303"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1607 @@
+{
+  "t": "Dict",
+  "v": [
+    {
+      "t": "String",
+      "v": "share_compute_pool"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "share_scheduling_pool"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "enable_compute_pool"
+    },
+    {
+      "t": "int",
+      "v": 1
+    },
+    {
+      "t": "String",
+      "v": "name"
+    },
+    {
+      "t": "String",
+      "v": "65be0ce5-3d95-4212-a17e-8578dc1bfc2a"
+    },
+    {
+      "t": "String",
+      "v": "scheduling_pool_thread_nums"
+    },
+    {
+      "t": "int",
+      "v": 2
+    },
+    {
+      "t": "String",
+      "v": "ops"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "share"
+                },
+                {
+                  "t": "int",
+                  "v": 0
+                },
+                {
+                  "t": "String",
+                  "v": "class_info"
+                },
+                {
+                  "t": "Dict",
+                  "v": [
+                    {
+                      "t": "String",
+                      "v": "init_func"
+                    },
+                    {
+                      "t": "Dict",
+                      "v": [
+                        {
+                          "t": "String",
+                          "v": "name"
+                        },
+                        {
+                          "t": "String",
+                          "v": "MyUserData__F___init__"
+                        },
+                        {
+                          "t": "String",
+                          "v": "args"
+                        },
+                        {
+                          "t": "List",
+                          "v": [
+                            {
+                              "t": "Dict",
+                              "v": [
+                                {
+                                  "t": "String",
+                                  "v": "name"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "a1"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "type_code"
+                                },
+                                {
+                                  "t": "int",
+                                  "v": -3
+                                }
+                              ]
+                            },
+                            {
+                              "t": "Dict",
+                              "v": [
+                                {
+                                  "t": "String",
+                                  "v": "name"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "b1"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "type_code"
+                                },
+                                {
+                                  "t": "int",
+                                  "v": -3
+                                }
+                              ]
+                            },
+                            {
+                              "t": "Dict",
+                              "v": [
+                                {
+                                  "t": "String",
+                                  "v": "name"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "c1"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "type_code"
+                                },
+                                {
+                                  "t": "int",
+                                  "v": -3
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "String",
+                          "v": "bound_self"
+                        },
+                        {
+                          "t": "int",
+                          "v": 0
+                        },
+                        {
+                          "t": "String",
+                          "v": "defaults"
+                        },
+                        {
+                          "t": "List",
+                          "v": []
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "init_args"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "int",
+                          "v": 1
+                        },
+                        {
+                          "t": "int",
+                          "v": 1
+                        },
+                        {
+                          "t": "int",
+                          "v": 1
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "name"
+                    },
+                    {
+                      "t": "String",
+                      "v": "MyUserData"
+                    },
+                    {
+                      "t": "String",
+                      "v": "len_slots"
+                    },
+                    {
+                      "t": "int",
+                      "v": 3
+                    },
+                    {
+                      "t": "String",
+                      "v": "member_funcs"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "MyUserData__F___init__"
+                            },
+                            {
+                              "t": "String",
+                              "v": "args"
+                            },
+                            {
+                              "t": "List",
+                              "v": [
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "a1"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": -3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "b1"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": -3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "c1"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": -3
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "t": "String",
+                              "v": "bound_self"
+                            },
+                            {
+                              "t": "int",
+                              "v": 0
+                            },
+                            {
+                              "t": "String",
+                              "v": "defaults"
+                            },
+                            {
+                              "t": "List",
+                              "v": []
+                            }
+                          ]
+                        },
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "MyUserData__F_forward"
+                            },
+                            {
+                              "t": "String",
+                              "v": "args"
+                            },
+                            {
+                              "t": "List",
+                              "v": [
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "self"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": 20
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "t": "String",
+                              "v": "bound_self"
+                            },
+                            {
+                              "t": "int",
+                              "v": 1
+                            },
+                            {
+                              "t": "String",
+                              "v": "defaults"
+                            },
+                            {
+                              "t": "List",
+                              "v": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path"
+                },
+                {
+                  "t": "String",
+                  "v": ""
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 29
+                },
+                {
+                  "t": "String",
+                  "v": "need_bundle"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "String",
+                  "v": "/home/jeff/github/gottingen/hvm/test/trace/test_shared_resource.py"
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path_cxx11"
+                },
+                {
+                  "t": "String",
+                  "v": "JitObject_MyUserData_4252145585938472037_0/libtest_shared_resource_29_MyUserData_plugin_f85e17e2c073dda1.so"
+                },
+                {
+                  "t": "String",
+                  "v": "captures"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "MyUserData_4252145585938472037_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitObject"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "share"
+                },
+                {
+                  "t": "int",
+                  "v": 0
+                },
+                {
+                  "t": "String",
+                  "v": "class_info"
+                },
+                {
+                  "t": "Dict",
+                  "v": [
+                    {
+                      "t": "String",
+                      "v": "init_func"
+                    },
+                    {
+                      "t": "Dict",
+                      "v": [
+                        {
+                          "t": "String",
+                          "v": "name"
+                        },
+                        {
+                          "t": "String",
+                          "v": "MyOp2__F___init__"
+                        },
+                        {
+                          "t": "String",
+                          "v": "args"
+                        },
+                        {
+                          "t": "List",
+                          "v": [
+                            {
+                              "t": "Dict",
+                              "v": [
+                                {
+                                  "t": "String",
+                                  "v": "name"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "ud1"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "type_code"
+                                },
+                                {
+                                  "t": "int",
+                                  "v": 20
+                                }
+                              ]
+                            },
+                            {
+                              "t": "Dict",
+                              "v": [
+                                {
+                                  "t": "String",
+                                  "v": "name"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "other1"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "type_code"
+                                },
+                                {
+                                  "t": "int",
+                                  "v": -3
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "String",
+                          "v": "bound_self"
+                        },
+                        {
+                          "t": "int",
+                          "v": 0
+                        },
+                        {
+                          "t": "String",
+                          "v": "defaults"
+                        },
+                        {
+                          "t": "List",
+                          "v": []
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "init_args"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "UserData",
+                          "v": {
+                            "tag": 1828619433,
+                            "type": 2,
+                            "class_name": "NativeObject",
+                            "var_num": 3,
+                            "ud_ptr": 48561728,
+                            "is_native_op": true,
+                            "is_jit_object": true,
+                            "native_class_name": "JitObject",
+                            "native_instance_name": "MyUserData_4252145585938472037_0"
+                          }
+                        },
+                        {
+                          "t": "int",
+                          "v": 2
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "name"
+                    },
+                    {
+                      "t": "String",
+                      "v": "MyOp2"
+                    },
+                    {
+                      "t": "String",
+                      "v": "len_slots"
+                    },
+                    {
+                      "t": "int",
+                      "v": 2
+                    },
+                    {
+                      "t": "String",
+                      "v": "member_funcs"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "MyOp2__F___init__"
+                            },
+                            {
+                              "t": "String",
+                              "v": "args"
+                            },
+                            {
+                              "t": "List",
+                              "v": [
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "ud1"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": 20
+                                    }
+                                  ]
+                                },
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "other1"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": -3
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "t": "String",
+                              "v": "bound_self"
+                            },
+                            {
+                              "t": "int",
+                              "v": 0
+                            },
+                            {
+                              "t": "String",
+                              "v": "defaults"
+                            },
+                            {
+                              "t": "List",
+                              "v": []
+                            }
+                          ]
+                        },
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "MyOp2__F___call__"
+                            },
+                            {
+                              "t": "String",
+                              "v": "args"
+                            },
+                            {
+                              "t": "List",
+                              "v": [
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "self"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": 20
+                                    }
+                                  ]
+                                },
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "seed"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": -3
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "t": "String",
+                              "v": "bound_self"
+                            },
+                            {
+                              "t": "int",
+                              "v": 1
+                            },
+                            {
+                              "t": "String",
+                              "v": "defaults"
+                            },
+                            {
+                              "t": "List",
+                              "v": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path"
+                },
+                {
+                  "t": "String",
+                  "v": ""
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 50
+                },
+                {
+                  "t": "String",
+                  "v": "need_bundle"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "String",
+                  "v": "/home/jeff/github/gottingen/hvm/test/trace/test_shared_resource.py"
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path_cxx11"
+                },
+                {
+                  "t": "String",
+                  "v": "JitObject_MyOp2_12905729538540561887_0/libtest_shared_resource_50_MyOp2_plugin_4c51cf56494284f3.so"
+                },
+                {
+                  "t": "String",
+                  "v": "captures"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "MyOp2_12905729538540561887_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitObject"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "main_func_name"
+                },
+                {
+                  "t": "String",
+                  "v": "MyOp2__F___call__"
+                },
+                {
+                  "t": "String",
+                  "v": "jit_object_name"
+                },
+                {
+                  "t": "String",
+                  "v": "MyOp2_12905729538540561887_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "MyOp2_JitOp_6906932942112913086_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "share"
+                },
+                {
+                  "t": "int",
+                  "v": 0
+                },
+                {
+                  "t": "String",
+                  "v": "class_info"
+                },
+                {
+                  "t": "Dict",
+                  "v": [
+                    {
+                      "t": "String",
+                      "v": "init_func"
+                    },
+                    {
+                      "t": "Dict",
+                      "v": [
+                        {
+                          "t": "String",
+                          "v": "name"
+                        },
+                        {
+                          "t": "String",
+                          "v": "MyOp1__F___init__"
+                        },
+                        {
+                          "t": "String",
+                          "v": "args"
+                        },
+                        {
+                          "t": "List",
+                          "v": [
+                            {
+                              "t": "Dict",
+                              "v": [
+                                {
+                                  "t": "String",
+                                  "v": "name"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "ud1"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "type_code"
+                                },
+                                {
+                                  "t": "int",
+                                  "v": 20
+                                }
+                              ]
+                            },
+                            {
+                              "t": "Dict",
+                              "v": [
+                                {
+                                  "t": "String",
+                                  "v": "name"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "other1"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "type_code"
+                                },
+                                {
+                                  "t": "int",
+                                  "v": -3
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "String",
+                          "v": "bound_self"
+                        },
+                        {
+                          "t": "int",
+                          "v": 0
+                        },
+                        {
+                          "t": "String",
+                          "v": "defaults"
+                        },
+                        {
+                          "t": "List",
+                          "v": []
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "init_args"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "UserData",
+                          "v": {
+                            "tag": 1828619433,
+                            "type": 2,
+                            "class_name": "NativeObject",
+                            "var_num": 3,
+                            "ud_ptr": 48561728,
+                            "is_native_op": true,
+                            "is_jit_object": true,
+                            "native_class_name": "JitObject",
+                            "native_instance_name": "MyUserData_4252145585938472037_0"
+                          }
+                        },
+                        {
+                          "t": "int",
+                          "v": 2
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "name"
+                    },
+                    {
+                      "t": "String",
+                      "v": "MyOp1"
+                    },
+                    {
+                      "t": "String",
+                      "v": "len_slots"
+                    },
+                    {
+                      "t": "int",
+                      "v": 2
+                    },
+                    {
+                      "t": "String",
+                      "v": "member_funcs"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "MyOp1__F___init__"
+                            },
+                            {
+                              "t": "String",
+                              "v": "args"
+                            },
+                            {
+                              "t": "List",
+                              "v": [
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "ud1"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": 20
+                                    }
+                                  ]
+                                },
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "other1"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": -3
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "t": "String",
+                              "v": "bound_self"
+                            },
+                            {
+                              "t": "int",
+                              "v": 0
+                            },
+                            {
+                              "t": "String",
+                              "v": "defaults"
+                            },
+                            {
+                              "t": "List",
+                              "v": []
+                            }
+                          ]
+                        },
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "MyOp1__F___call__"
+                            },
+                            {
+                              "t": "String",
+                              "v": "args"
+                            },
+                            {
+                              "t": "List",
+                              "v": [
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "self"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": 20
+                                    }
+                                  ]
+                                },
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "seed"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": -3
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "t": "String",
+                              "v": "bound_self"
+                            },
+                            {
+                              "t": "int",
+                              "v": 1
+                            },
+                            {
+                              "t": "String",
+                              "v": "defaults"
+                            },
+                            {
+                              "t": "List",
+                              "v": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path"
+                },
+                {
+                  "t": "String",
+                  "v": ""
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 40
+                },
+                {
+                  "t": "String",
+                  "v": "need_bundle"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "String",
+                  "v": "/home/jeff/github/gottingen/hvm/test/trace/test_shared_resource.py"
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path_cxx11"
+                },
+                {
+                  "t": "String",
+                  "v": "JitObject_MyOp1_12905729538540561887_0/libtest_shared_resource_40_MyOp1_plugin_4c51cf56494284f3.so"
+                },
+                {
+                  "t": "String",
+                  "v": "captures"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "MyOp1_12905729538540561887_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitObject"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "main_func_name"
+                },
+                {
+                  "t": "String",
+                  "v": "MyOp1__F___call__"
+                },
+                {
+                  "t": "String",
+                  "v": "jit_object_name"
+                },
+                {
+                  "t": "String",
+                  "v": "MyOp1_12905729538540561887_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "MyOp1_JitOp_17408390766873140430_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "String",
+      "v": "compute_pool_thread_nums"
+    },
+    {
+      "t": "int",
+      "v": 8
+    },
+    {
+      "t": "String",
+      "v": "enable_graph_parallel"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "outputs"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "String",
+          "v": "12281891379648942633_0"
+        },
+        {
+          "t": "String",
+          "v": "17789376907536615263_0"
+        }
+      ]
+    },
+    {
+      "t": "String",
+      "v": "enable_scheduling_pool"
+    },
+    {
+      "t": "int",
+      "v": 1
+    },
+    {
+      "t": "String",
+      "v": "g_attr"
+    },
+    {
+      "t": "Dict",
+      "v": []
+    },
+    {
+      "t": "String",
+      "v": "graph"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "seed"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "seed"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "seed"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "MyOp2_JitOp_6906932942112913086_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "17789376907536615263_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "exported"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "17789376907536615263_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "MyOp2_JitOp_6906932942112913086_0_node_9821901378936139836"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "seed"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "MyOp1_JitOp_17408390766873140430_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "12281891379648942633_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "exported"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "12281891379648942633_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "MyOp1_JitOp_17408390766873140430_0_node_9821901378936139836"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

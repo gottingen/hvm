@@ -1,0 +1,689 @@
+{
+  "t": "Dict",
+  "v": [
+    {
+      "t": "String",
+      "v": "share_compute_pool"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "share_scheduling_pool"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "enable_compute_pool"
+    },
+    {
+      "t": "int",
+      "v": 1
+    },
+    {
+      "t": "String",
+      "v": "name"
+    },
+    {
+      "t": "String",
+      "v": "0a52ffde-c2c2-4758-a2d9-4ef3e44bcd2c"
+    },
+    {
+      "t": "String",
+      "v": "scheduling_pool_thread_nums"
+    },
+    {
+      "t": "int",
+      "v": 2
+    },
+    {
+      "t": "String",
+      "v": "ops"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "share"
+                },
+                {
+                  "t": "int",
+                  "v": 0
+                },
+                {
+                  "t": "String",
+                  "v": "class_info"
+                },
+                {
+                  "t": "Dict",
+                  "v": [
+                    {
+                      "t": "String",
+                      "v": "init_func"
+                    },
+                    {
+                      "t": "Dict",
+                      "v": [
+                        {
+                          "t": "String",
+                          "v": "name"
+                        },
+                        {
+                          "t": "String",
+                          "v": "LookupTableWithConfig__F___init__"
+                        },
+                        {
+                          "t": "String",
+                          "v": "args"
+                        },
+                        {
+                          "t": "List",
+                          "v": [
+                            {
+                              "t": "Dict",
+                              "v": [
+                                {
+                                  "t": "String",
+                                  "v": "name"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "configs"
+                                },
+                                {
+                                  "t": "String",
+                                  "v": "type_code"
+                                },
+                                {
+                                  "t": "int",
+                                  "v": -32768
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "String",
+                          "v": "bound_self"
+                        },
+                        {
+                          "t": "int",
+                          "v": 0
+                        },
+                        {
+                          "t": "String",
+                          "v": "defaults"
+                        },
+                        {
+                          "t": "List",
+                          "v": []
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "init_args"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "List",
+                          "v": [
+                            {
+                              "t": "int",
+                              "v": 1
+                            },
+                            {
+                              "t": "int",
+                              "v": 2
+                            },
+                            {
+                              "t": "List",
+                              "v": [
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "Unicode",
+                                      "v": "other_param"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": 345
+                                    },
+                                    {
+                                      "t": "Unicode",
+                                      "v": "dict_fn"
+                                    },
+                                    {
+                                      "t": "Dict",
+                                      "v": [
+                                        {
+                                          "t": "Unicode",
+                                          "v": "default"
+                                        },
+                                        {
+                                          "t": "Unicode",
+                                          "v": "JitObject_LookupTableWithConfig_3112393485297104084_2/word2id.txt"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "t": "Unicode",
+                              "v": "abc"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "t": "String",
+                      "v": "name"
+                    },
+                    {
+                      "t": "String",
+                      "v": "LookupTableWithConfig"
+                    },
+                    {
+                      "t": "String",
+                      "v": "len_slots"
+                    },
+                    {
+                      "t": "int",
+                      "v": 1
+                    },
+                    {
+                      "t": "String",
+                      "v": "member_funcs"
+                    },
+                    {
+                      "t": "List",
+                      "v": [
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "LookupTableWithConfig__F___init__"
+                            },
+                            {
+                              "t": "String",
+                              "v": "args"
+                            },
+                            {
+                              "t": "List",
+                              "v": [
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "configs"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": -32768
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "t": "String",
+                              "v": "bound_self"
+                            },
+                            {
+                              "t": "int",
+                              "v": 0
+                            },
+                            {
+                              "t": "String",
+                              "v": "defaults"
+                            },
+                            {
+                              "t": "List",
+                              "v": []
+                            }
+                          ]
+                        },
+                        {
+                          "t": "Dict",
+                          "v": [
+                            {
+                              "t": "String",
+                              "v": "name"
+                            },
+                            {
+                              "t": "String",
+                              "v": "LookupTableWithConfig__F___call__"
+                            },
+                            {
+                              "t": "String",
+                              "v": "args"
+                            },
+                            {
+                              "t": "List",
+                              "v": [
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "self"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": 20
+                                    }
+                                  ]
+                                },
+                                {
+                                  "t": "Dict",
+                                  "v": [
+                                    {
+                                      "t": "String",
+                                      "v": "name"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "x"
+                                    },
+                                    {
+                                      "t": "String",
+                                      "v": "type_code"
+                                    },
+                                    {
+                                      "t": "int",
+                                      "v": -12
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "t": "String",
+                              "v": "bound_self"
+                            },
+                            {
+                              "t": "int",
+                              "v": 1
+                            },
+                            {
+                              "t": "String",
+                              "v": "defaults"
+                            },
+                            {
+                              "t": "List",
+                              "v": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path"
+                },
+                {
+                  "t": "String",
+                  "v": ""
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_line"
+                },
+                {
+                  "t": "int",
+                  "v": 94
+                },
+                {
+                  "t": "String",
+                  "v": "need_bundle"
+                },
+                {
+                  "t": "List",
+                  "v": [
+                    {
+                      "t": "String",
+                      "v": "$.configs[2][0].dict_fn.default"
+                    }
+                  ]
+                },
+                {
+                  "t": "String",
+                  "v": "py_source_file"
+                },
+                {
+                  "t": "String",
+                  "v": "/home/jeff/github/gottingen/hvm/test/trace/test_bundle_resource.py"
+                },
+                {
+                  "t": "String",
+                  "v": "dso_path_cxx11"
+                },
+                {
+                  "t": "String",
+                  "v": "JitObject_LookupTableWithConfig_3112393485297104084_2/libtest_bundle_resource_94_LookupTableWithConfig_plugin_8ee0ad17b7bd9888.so"
+                },
+                {
+                  "t": "String",
+                  "v": "captures"
+                },
+                {
+                  "t": "List",
+                  "v": []
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "LookupTableWithConfig_3112393485297104084_2"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitObject"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "attrs"
+            },
+            {
+              "t": "Dict",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "main_func_name"
+                },
+                {
+                  "t": "String",
+                  "v": "LookupTableWithConfig__F___call__"
+                },
+                {
+                  "t": "String",
+                  "v": "jit_object_name"
+                },
+                {
+                  "t": "String",
+                  "v": "LookupTableWithConfig_3112393485297104084_2"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name"
+            },
+            {
+              "t": "String",
+              "v": "LookupTableWithConfig_JitOp_12869906648844036028_0"
+            },
+            {
+              "t": "String",
+              "v": "op"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "String",
+      "v": "compute_pool_thread_nums"
+    },
+    {
+      "t": "int",
+      "v": 8
+    },
+    {
+      "t": "String",
+      "v": "enable_graph_parallel"
+    },
+    {
+      "t": "int",
+      "v": 0
+    },
+    {
+      "t": "String",
+      "v": "outputs"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "String",
+          "v": "11542099364424402139_0"
+        }
+      ]
+    },
+    {
+      "t": "String",
+      "v": "enable_scheduling_pool"
+    },
+    {
+      "t": "int",
+      "v": 1
+    },
+    {
+      "t": "String",
+      "v": "g_attr"
+    },
+    {
+      "t": "Dict",
+      "v": []
+    },
+    {
+      "t": "String",
+      "v": "graph"
+    },
+    {
+      "t": "List",
+      "v": [
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": []
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "VariableOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "x"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "x"
+            }
+          ]
+        },
+        {
+          "t": "Dict",
+          "v": [
+            {
+              "t": "String",
+              "v": "inputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "x"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "op_name"
+            },
+            {
+              "t": "String",
+              "v": "LookupTableWithConfig_JitOp_12869906648844036028_0"
+            },
+            {
+              "t": "String",
+              "v": "op_cls"
+            },
+            {
+              "t": "String",
+              "v": "JitOp"
+            },
+            {
+              "t": "String",
+              "v": "outputs"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "11542099364424402139_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "exported"
+            },
+            {
+              "t": "List",
+              "v": [
+                {
+                  "t": "String",
+                  "v": "11542099364424402139_0"
+                }
+              ]
+            },
+            {
+              "t": "String",
+              "v": "name_trace"
+            },
+            {
+              "t": "String",
+              "v": "LookupTableWithConfig_JitOp_12869906648844036028_0_node_9784782450576697015"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
